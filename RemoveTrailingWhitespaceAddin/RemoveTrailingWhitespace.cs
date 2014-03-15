@@ -32,6 +32,9 @@ namespace Prime31
 	}
 
 
+
+	#region CommandHandlers
+
 	public class Save : CommandHandler
 	{
 		protected override void Run()
@@ -88,6 +91,10 @@ namespace Prime31
 		}
 	}
 
+	#endregion
+
+
+	#region Command Enums
 
 	public enum BetterFileCommands
 	{
@@ -99,6 +106,8 @@ namespace Prime31
 	{
 		RemoveTrailingWhitespace
 	}
+
+	#endregion
 
 }
 
