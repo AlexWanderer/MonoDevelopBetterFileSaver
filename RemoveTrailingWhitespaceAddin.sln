@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveTrailingWhitespaceAddin", "RemoveTrailingWhitespaceAddin\RemoveTrailingWhitespaceAddin.csproj", "{BDDD8C11-C9F7-4489-A988-6C18E5BB660C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDD8C11-C9F7-4489-A988-6C18E5BB660C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDD8C11-C9F7-4489-A988-6C18E5BB660C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDD8C11-C9F7-4489-A988-6C18E5BB660C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDD8C11-C9F7-4489-A988-6C18E5BB660C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RemoveTrailingWhitespaceAddin\RemoveTrailingWhitespaceAddin.csproj
+	EndGlobalSection
+EndGlobal

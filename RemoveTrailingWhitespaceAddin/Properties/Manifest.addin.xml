@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Addin namespace="Prime31"
+	id="Prime31.RemoveTrailingWhitespaceAddin"
+	name="Better File Saver"
+	author="Mike Desaro"
+	copyright="nobody"
+	description="Provides Save and Save All commands that remove trailing whitespace before saving"
+	category="IDE extensions"
+	version="0.1">
+
+	<Dependencies>
+		<Addin id="::MonoDevelop.Core" version="4.0" />
+		<Addin id="::MonoDevelop.Ide" version="4.0" />
+	</Dependencies>
+
+
+    <Extension path = "/MonoDevelop/Ide/Commands/File">
+        <Command id = "Prime31.BetterFileCommands.Save"
+                 _label = "Save and Remove Trailing Whitespace"
+                 shortcut = "command|s"
+                 defaultHandler = "Prime31.Save" />
+        <Command id = "Prime31.BetterFileCommands.SaveAll"
+                 _label = "Save All and Remove Trailing Whitespace"
+                 shortcut = "command|shift|s"
+                 defaultHandler = "Prime31.SaveAll" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/File">
+    	<SeparatorItem id = "SuperSaveSeparator" />
+    	<CommandItem id="Prime31.BetterFileCommands.Save" />
+        <CommandItem id="Prime31.BetterFileCommands.SaveAll" />
+    </Extension>
+
+</Addin>
