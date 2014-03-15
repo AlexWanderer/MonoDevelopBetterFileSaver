@@ -1,5 +1,4 @@
 MonoDevelop Better File Saver Add-in
 ==========================
 
-MonoDevelop Add-in that provides Save and Save All commands to the File menu that remove trailing whitespace before saving. Unfortunately, the MonoDeveloper "Remove trailing whitespace" option availble in the settings does not work at all. MonoDevelop can be a real fiesty PITA when it comes to extra whitespace and it eventually drove me completely nuts so now
-the Better File Saver AddIn exists to keep me sane.
+This MonoDevelop/Xamarin add-in adds Save and Save All commands in the File menu that remove trailing whitespace before saving. There is also a Remote Trailing Whitespace item added to the Edit menu that will update the text in the currently open file without saving it. The new menu items will show up in your normal key bindings so you can just change them to map to Command/Ctrl+S and Command/Ctrl+Shift+S to get auto whitespace removal every time you save.
