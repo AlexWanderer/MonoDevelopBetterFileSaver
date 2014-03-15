@@ -44,8 +44,8 @@
                  defaultHandler = "Prime31.Save" />
         <Command id = "Prime31.BetterFileCommands.SaveAll"
                  _label = "Save All and Remove Trailing Whitespace"
-                 shortcut = "Ctrl|Shift|Q"
-                 macShortcut = "Meta|Shift|Q"
+                 shortcut = "Ctrl|Shift|S"
+                 macShortcut = "Meta|Shift|S"
                  defaultHandler = "Prime31.SaveAll" />
     </Extension>
 

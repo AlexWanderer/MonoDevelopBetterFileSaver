@@ -92,8 +92,7 @@ namespace Prime31
 	public enum BetterFileCommands
 	{
 		Save,
-		SaveAll,
-		RemoveTrailingWhitespace
+		SaveAll
 	}
 
 	public enum BetterEditCommands
