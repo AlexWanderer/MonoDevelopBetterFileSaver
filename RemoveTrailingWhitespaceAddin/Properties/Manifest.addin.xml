@@ -7,6 +7,13 @@
 	description="Provides Save and Save All commands that remove trailing whitespace before saving"
 	category="IDE extensions"
 	version="0.1">
+	
+	<Header>
+        <Name>Better File Saver</Name>
+        <Description>Provides Save and Save All commands that remove trailing whitespace before saving</Description>
+        <Author>Mike Desaro</Author>
+        <Url>https://github.com/prime31/MonoDevelopBetterFileSaver</Url>
+    </Header>
 
 	<Dependencies>
 		<Addin id="::MonoDevelop.Core" version="4.0" />
