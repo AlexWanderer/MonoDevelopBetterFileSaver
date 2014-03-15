@@ -1,6 +1,6 @@
 <AddinProject appVersion="4.0">
 	<Project platforms="Mac Linux Win32">
-		<AddinFile>/build/RemoveTrailingWhitespaceAddin/bin/Debug/RemoveTrailingWhitespaceAddin.dll</AddinFile>
+		<AddinFile>RemoveTrailingWhitespaceAddin/bin/Debug/RemoveTrailingWhitespaceAddin.dll</AddinFile>
 		<BuildFile>RemoveTrailingWhitespaceAddin.sln</BuildFile>
 		<BuildConfiguration>Debug</BuildConfiguration>
 	</Project>
