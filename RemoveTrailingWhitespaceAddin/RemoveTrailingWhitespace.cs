@@ -73,10 +73,27 @@ namespace Prime31
 	}
 
 
+	public class RemoveTrailingWhitespace : CommandHandler
+	{
+		protected override void Run()
+		{
+			FileHelper.removeTrailingWhitespace( IdeApp.Workbench.ActiveDocument.Editor );
+		}
+
+
+		protected override void Update( CommandInfo info )
+		{
+			var doc = IdeApp.Workbench.ActiveDocument;
+			info.Enabled = doc != null && doc.Editor != null;
+		}
+	}
+
+
 	public enum BetterFileCommands
 	{
 		Save,
-		SaveAll
+		SaveAll,
+		RemoveTrailingWhitespace
 	}
 
 }
