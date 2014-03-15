@@ -1,0 +1,7 @@
+<AddinProject appVersion="0.1">
+	<Project platforms="Mac Linux Win32">
+		<AddinFile>RemoveTrailingWhitespaceAddin/bin/Debug/RemoveTrailingWhitespaceAddin.dll</AddinFile>
+		<BuildFile>RemoveTrailingWhitespaceAddin.sln</BuildFile>
+		<BuildConfiguration>Debug</BuildConfiguration>
+	</Project>
+</AddinProject>
