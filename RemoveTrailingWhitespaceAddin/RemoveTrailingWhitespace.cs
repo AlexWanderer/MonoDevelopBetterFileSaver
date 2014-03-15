@@ -7,7 +7,6 @@ using MonoDevelop.Ide.Commands;
 using MonoDevelop.Projects;
 using MonoDevelop.Projects.Extensions;
 using MonoDevelop.Ide.Gui.Components;
-using System.Windows.Input;
 using Mono.Addins;
 using System.Collections;
 using System.Collections.Generic;
