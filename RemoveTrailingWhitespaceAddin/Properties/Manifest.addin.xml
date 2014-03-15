@@ -22,6 +22,20 @@
 	</Dependencies>
 
 
+
+    <Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "Prime31.BetterEditCommands.RemoveTrailingWhitespace"
+                 _label = "Remove Trailing Whitespace"
+                 defaultHandler = "Prime31.RemoveTrailingWhitespace" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+    	<CommandItem id="Prime31.BetterEditCommands.RemoveTrailingWhitespace" />
+    </Extension>
+
+
+
+
     <Extension path = "/MonoDevelop/Ide/Commands/File">
         <Command id = "Prime31.BetterFileCommands.Save"
                  _label = "Save and Remove Trailing Whitespace"
@@ -39,19 +53,6 @@
     	<SeparatorItem id = "SuperSaveSeparator" />
     	<CommandItem id="Prime31.BetterFileCommands.Save" />
         <CommandItem id="Prime31.BetterFileCommands.SaveAll" />
-    </Extension>'
-
-
-
-
-    <Extension path = "/MonoDevelop/Ide/Commands/Edit">
-        <Command id = "Prime31.BetterFileCommands.RemoveTrailingWhitespace"
-                 _label = "Remove Trailing Whitespace"
-                 defaultHandler = "Prime31.RemoveTrailingWhitespace" />
     </Extension>
-
-    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
-    	<CommandItem id="Prime31.BetterFileCommands.RemoveTrailingWhitespace" />
-    </Extension>'
 
 </Addin>

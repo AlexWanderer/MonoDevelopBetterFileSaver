@@ -96,5 +96,10 @@ namespace Prime31
 		RemoveTrailingWhitespace
 	}
 
+	public enum BetterEditCommands
+	{
+		RemoveTrailingWhitespace
+	}
+
 }
 
