@@ -6,7 +6,7 @@
 	copyright="nobody"
 	description="Provides Save and Save All commands that remove trailing whitespace before saving"
 	category="IDE extensions"
-	version="0.1">
+	version="0.2">
 	
 	<Header>
         <Name>Better File Saver</Name>

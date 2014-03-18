@@ -1,2 +1,5 @@
 {{0.1, 2014-03-14}}
 initial release
+
+{{0.2, 2014-03-17}}
+better handling of caret and scroll position

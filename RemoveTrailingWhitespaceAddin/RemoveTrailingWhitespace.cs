@@ -14,6 +14,7 @@ namespace Prime31
 	{
 		public static void removeTrailingWhitespace( TextEditorData editor )
 		{
+			var caretLocation = editor.Caret.Location;
 			var lines = new List<string>();
 
 			foreach( var line in editor.Lines )
@@ -23,6 +24,8 @@ namespace Prime31
 			}
 
 			editor.Text = string.Join( "\n", lines );
+			editor.Caret.Location = caretLocation;
+			editor.CenterToCaret();
 		}
 	}
 
