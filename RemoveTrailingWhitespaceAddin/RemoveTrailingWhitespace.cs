@@ -12,20 +12,30 @@ namespace Prime31
 {
 	public static class FileHelper
 	{
+		public static void removeTrailingWhitespace( TextEditorData data, DocumentLine line )
+		{
+			if( line != null )
+			{
+				int num = 0;
+				for( int i = line.Length - 1; i >= 0; i-- )
+				{
+					if( !char.IsWhiteSpace( data.Document.GetCharAt( line.Offset + i ) ) )
+						break;
+					num++;
+				}
+
+				if( num > 0 )
+				{
+					int offset = line.Offset + line.Length - num;
+					data.Remove( offset, num );
+				}
+			}
+		}
+
 		public static void removeTrailingWhitespace( TextEditorData editor )
 		{
-			var caretLocation = editor.Caret.Location;
-			var lines = new List<string>();
-
 			foreach( var line in editor.Lines )
-			{
-				var lineText = editor.Text.Substring( line.Offset, line.Length );
-				lines.Add( lineText.TrimEnd() );
-			}
-
-			editor.Text = string.Join( "\n", lines );
-			editor.Caret.Location = caretLocation;
-			editor.CenterToCaret();
+				removeTrailingWhitespace( editor, line );
 		}
 	}
 
